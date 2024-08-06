@@ -15,3 +15,8 @@ def about(request):
 # Функция страницы контакты
 def contacts(request):
     return render(request,'village_houses/contacts.html')
+
+
+# Функция обзора выбранного дома
+def show_house(request, home_id):
+    return HttpResponse('Ваш дом {home_id}')
