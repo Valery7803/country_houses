@@ -1,5 +1,12 @@
 {% extends 'base.html' %}
 
 {% block content %}
-{{ title }}
+<ul>
+    {% for h in home %}
+    <li>
+        <h1>{{ h.title }}</h1>
+        <h3>{{ h.context }}</h3>
+    </li>       
+    {% endfor %}
+</ul>    
 {% endblock %}

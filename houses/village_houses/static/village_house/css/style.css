@@ -1,17 +1,10 @@
-html{
-    margin: 0;
-    padding: 0;
-}
-
-body{
+.header{
     background-color: blanchedalmond;
 }
 
-.header{
-    height: 170px;
-    width: auto;
-    border: 3px solid black;
-    display: flexbox;
+.conteiner{
+    background-color: aqua;
+    display: inline;
 }
 
 img{
